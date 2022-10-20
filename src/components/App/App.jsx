@@ -12,9 +12,12 @@ import styles from "./App.css";
 function App()
 {
     return (<div id="app"> 
+    
         <Navbar />
+        <Header />
+        <Quotes />
         <Home />
-        {/* <Quotes />  */}
+          
         <AboutMe />
         <Skills />
         <Projects />

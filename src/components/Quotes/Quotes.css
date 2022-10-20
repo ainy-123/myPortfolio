@@ -1,8 +1,9 @@
 #quotes{
-    background-color: rgb(125, 128, 155);
+    top:0;
+    /* background-color: rgb(125, 128, 155); 
+     background-color: transparent;
     text-align: center;
     padding: 2%;
-    top:0;
     font-family: 'Lovers Quarrel', cursive;
-    font-size: 70px;
+    font-size: 70px; */
 }
