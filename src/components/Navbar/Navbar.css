@@ -32,3 +32,6 @@
   .dropdown-content{
     overflow: hidden;
   }
+button{
+    background-color: transparent;
+}
