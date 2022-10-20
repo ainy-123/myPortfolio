@@ -3,15 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
 }
-#mypic{ 
-  align-self: center;
-      height: 175px;
-      border-radius: 50%;
-      border: 5px solid rgb(249, 250, 248);
+.icons{
+  width: 35px; 
+  margin-left: 15px;
+  padding-top: 30px;
+}
+input{
+  width: 60%;
+  border-radius: 5px;
+}
+button{
+  border-radius: 5px; 
+}
+button:hover{
+  background-color: rgb(149, 179, 179);
 }
 body{
     background-color:  rgb(8, 8, 32);
@@ -19,21 +29,51 @@ body{
     width: 100vw;
     height: 100%;
 }
-input{
-    width: 60%;
-    border-radius: 5px;
+p{
+  font-size: 200%;
 }
-button{
-    border-radius: 5px; 
-}
-#app{
-    text-align: center;
-    align-items: center;
-}
-#navbar{
+
+/*  
+.navbar{
   background-color: transparent;
-  position: fixed;
-  display: block;
+  display: flex;
+}
+ .home-btn{
+  float: left;
+}
+.dropbtn{
+  float:right;
+}
+
+.dropdown-content {
+  display: flex;
+  background-color: #0d0730;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  align-items: center;
+}
+.dropdown-content a {
+  color: rgb(240, 240, 241);
+   padding: 12px 36px; 
+  text-decoration: none;
+  display: flex;
+  text-align: right;
+  align-items: center;
+} */
+
+/* #navbar{
+  background-color: transparent;
+  /* position: fixed;
+  display: block; 
+}
+.dropdown-content {
+  display: flex;
+  position: absolute;
+  background-color: #0d0730;
+  width:100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right:0;
 }
 #navbar ul {
   list-style-type: none;
@@ -58,11 +98,12 @@ button{
 #navbar li a:hover, .dropdown:hover .dropbtn {
   cursor: pointer;
 }
+
 .dropdown-content {
-  display: none;
+  display: flex;
   position: absolute;
   background-color: #0d0730;
-  min-width: 160px;
+  width:100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   right:0;
@@ -71,7 +112,7 @@ button{
   color: rgb(240, 240, 241);
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: flex;
   text-align: right;
 }
 .dropdown:hover .dropdown-content {
@@ -79,237 +120,30 @@ button{
   right: 35vw;
 }
 
-#one{
-  background-color: rgb(245, 233, 233);
-  width: 4vh;
-  height:0.5vh; 
-  margin:0 0 0.5vh 0;
-  border-radius: 25px;
-}
-#two{
-  background-color: rgb(245, 233, 233);
-  width: 4vh;
-  height:0.5vh ;
-  border-radius: 25px;
-}
-#three{
-  background-color: rgb(245, 233, 233);
-  width: 4vh;
-  height:0.5vh; 
-  margin:0.5vh 0 0 0;
-  border-radius: 25px;
-}
 
-.dropdown-content a:hover {background-color: #5d5097;}
-#home{
-    padding-top: 30vh;
-    background-color: blueviolet;
-    align-items: center;
-    text-align: center;
-    width:100vw;
-    height:70vh;
-}
-#intro{
-  display: inline-flex;
-  padding-top: 3vh;
-}
-#intro .fixed{
-  left: 20px;
-}
-#intro .typing{
-  height: 36px;
-  line-height: 37px;
-  margin-left: 10px;
-  overflow: hidden;
-}
-#intro .typing li{
-  position: relative;
-  font-size: 32px;
-  font-weight: bold;
-  list-style-type: none ;
-   top:0;
-   text-align: left;
-   animation: slide 7.5s steps(5) infinite;
-   
-}
-#intro .typing li span{ 
-  position: relative; 
-  animation: blink 1.5s ease infinite;
-} 
 
-#intro .typing li span::after{
-  content:"";
-  position: absolute;
-  left:0;
-  height:105%;
-  width:100%;
-  background: blueviolet; 
-  border-left: 3px solid #eee7e7;  
-   animation: typing 1.5s steps(15) infinite; 
-}
+.dropdown-content a:hover {background-color: #5d5097;} */
+/* 
 
-@keyframes typing {
-  100%{
-    left: 100%;
-    margin: 0 -25px 0 25px;
-  }
-}
-@keyframes slide {
-  100%{
-    top:-185px;
-  }
-}
 
-@keyframes blink {
-  0%{
-    opacity:0;
-  }
-  100%{
-    opacity: 100;
-  }
-}
-#aboutMe{
-    /* display: inline-flex; */
-    background-color: rgb(125, 128, 155);
-    padding: 15px;
-}
-#div2{
-  margin: 35px;
-}
-/*#div1{
-    margin-top: 2%;
-    width: 30%;
-    line-height: 200%;
-    text-align: center;
-}
- #div2{
-    margin: 35px;
-    width: 60%;
-    text-align: justify;
+
+
+
+
+
+/*Design the quotes section
+
+
+
+
+
+
+
+
+
+
+
+
 } */
-
-/*Design the quotes section*/
-#quotes{
-    background-color: rgb(125, 128, 155);
-    text-align: center;
-    padding: 2%;
-    top:0;
-    font-family: 'Lovers Quarrel', cursive;
-    font-size: 70px;
-}
-p{
-    font-size: 200%;
-}
-
-#myself{
-    font-size: 80px;
-    font-family: 'Lovers Quarrel', cursive;
-}
-#name{
-    font-family: 'Caveat', cursive;
-    font-size:80px;
-    padding-bottom: 4vh;
-}
-
-.project-card {
-    margin: auto;
-    margin-bottom: 50px;
-    background-color: transparent;
-    width: 300px;
-    height: 200px;
-    border: 1px solid rgb(8, 8, 32);
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    
-  }
-.project-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  .project-card:hover .project-card-inner {
-    transform: rotateY(180deg);
-  } 
-.project-card-front, .project-card-back{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    box-shadow: 4px 4px 14px 4px grey;
-    border-radius: 5px;
-  }
-  .project-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  .project-card-front p{
-    font-size: 23px;
-    padding: 10px;
-  }
-  .project-card-back {
-    background-color: rgba(60, 12, 77,0.9);
-    color: white;
-    transform: rotateY(180deg);
-  }
-  .project-card-back h1{
-    margin: 15px;
-    font-size: 20px;
-  }
-  .project-card-back p{
-    margin: 10px;
-    font-size: 12px;
-  }
-  .project-card-back a button{
-    margin: 10px;
-    padding: 4px;
-    width: 100px;
-    font-size: 25px;
-    border: 1px solid lightblue;
-    border-radius: 20px;
-    color: lightblue;
-    cursor: pointer;
-    background-color: rgba(69, 1, 94,0.2);
-  }
-  .project-card-back a button:hover{
-    background-color: rgb(8, 8, 32);
-  }
-  @media(max-width:400px){
-    .project-card {
-      
-      margin-left: -10px;
-    }
-  }
-  @media(max-width:300px){
-    .project-card {
-      width: 80vw;
-      margin-left: -10px;
-    }
-  }
-#footer{
-    background-color: blueviolet;
-    padding: 20px;
-}
-#ContactMe{
-    font-size: 110%;
-    padding-top: 50px;
-    text-align: center;
-}
-#feedback{
-    font-size: 110%;
-    padding-top: 10px;
-    text-align: center; 
-}
-
-.icons{
-    width: 35px; 
-    margin-left: 15px;
-    padding-top: 30px;
-}
-button:hover{
-background-color: rgb(149, 179, 179);
-}
 
 

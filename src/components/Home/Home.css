@@ -1,0 +1,81 @@
+#home{
+    padding-top: 30vh;
+    background-color: blueviolet;
+    align-items: center;
+    text-align: center;
+    width:100vw;
+    height:70vh;
+}
+#myself{
+    font-size: 80px;
+    font-family: 'Lovers Quarrel', cursive;
+}
+#name{
+    font-family: 'Caveat', cursive;
+    font-size:80px;
+    padding-bottom: 4vh;
+}
+#mypic{ 
+    align-self: center;
+        height: 175px;
+        border-radius: 50%;
+        border: 5px solid rgb(249, 250, 248);
+  }
+#intro{
+    display: inline-flex;
+    padding-top: 3vh;
+  }
+  #intro .fixed{
+    left: 20px;
+  }
+  #intro .typing{
+    height: 36px;
+    line-height: 37px;
+    margin-left: 10px;
+    overflow: hidden;
+  }
+  #intro .typing li{
+    position: relative;
+    font-size: 32px;
+    font-weight: bold;
+    list-style-type: none ;
+     top:0;
+     text-align: left;
+     animation: slide 7.5s steps(5) infinite;
+     
+  }
+  #intro .typing li span{ 
+    position: relative; 
+    animation: blink 1.5s ease infinite;
+  } 
+  
+  #intro .typing li span::after{
+    content:"";
+    position: absolute;
+    left:0;
+    height:105%;
+    width:100%;
+    background: blueviolet; 
+    border-left: 3px solid #eee7e7;  
+     animation: typing 1.5s steps(15) infinite; 
+  }
+  @keyframes typing {
+    100%{
+      left: 100%;
+      margin: 0 -25px 0 25px;
+    }
+  }
+  @keyframes slide {
+    100%{
+      top:-185px;
+    }
+  }
+  
+  @keyframes blink {
+    0%{
+      opacity:0;
+    }
+    100%{
+      opacity: 100;
+    }
+  }

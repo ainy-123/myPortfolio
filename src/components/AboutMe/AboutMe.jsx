@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./AboutMe.css";
 
 function AboutMe(){
     return <div id="aboutMe">

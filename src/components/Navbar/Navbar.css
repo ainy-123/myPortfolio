@@ -1,0 +1,20 @@
+#one{
+    background-color: rgb(245, 233, 233);
+    width: 4vh;
+    height:0.5vh; 
+    margin:0 0 0.5vh 0;
+    border-radius: 25px;
+  }
+  #two{
+    background-color: rgb(245, 233, 233);
+    width: 4vh;
+    height:0.5vh ;
+    border-radius: 25px;
+  }
+  #three{
+    background-color: rgb(245, 233, 233);
+    width: 4vh;
+    height:0.5vh; 
+    margin:0.5vh 0 0 0;
+    border-radius: 25px;
+  }
