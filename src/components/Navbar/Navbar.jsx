@@ -11,7 +11,7 @@ function Navbar(){
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#ContactMe">Contact</a></div>
-          <div className="col-md-2 dropdown"><a  className="dropbtn">
+          <div className="col-md-2 dropdown"><a href="#" className="dropbtn">
             <div id="one"></div>
             <div id="two"></div>
             <div id="three"></div>
