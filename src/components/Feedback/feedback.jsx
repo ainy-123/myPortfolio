@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Feedback.css";
+import "./Feedback.css";
 
 function Feedback()
 {

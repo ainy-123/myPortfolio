@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./ContactMe.css";
+import "./ContactMe.css";
 
 function ContactMe()
 {

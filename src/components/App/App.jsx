@@ -7,17 +7,15 @@ import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Footer from "../Footer/Footer";
 import Home from "../Home/Home";
-import styles from "./App.css";
+import "./App.css";
 
 function App()
 {
     return (<div id="app"> 
-    
         <Navbar />
         <Header />
         <Quotes />
         <Home />
-          
         <AboutMe />
         <Skills />
         <Projects />
