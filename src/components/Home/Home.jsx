@@ -11,13 +11,12 @@ function Home(){
             "https://avatars.githubusercontent.com/u/61025442?s=400&u=c453cb5379500ddbebd7561d57fb1fd13f3272aa&v=4" id="mypic" alt="Myself"/> 
             <br />
             <div id="intro">
-            <div className="fixed"><h1>I am</h1></div>
             <ul className="typing">
-                <li><span>a quick Learner.</span></li>
-                <li><span>a web Developer.</span></li>
-                <li><span>an amateur Artist.</span></li>
-                <li><span>a software Engineer.</span></li>
-                <li><span>a proud Indian.</span></li>
+                <li><span>A Quick Learner.</span></li>
+                <li><span>A Web Developer.</span></li>
+                <li><span>An Amateur Artist.</span></li>
+                <li><span>A Software Engineer.</span></li>
+                <li><span>A Proud Indian.</span></li>
             </ul>
             </div>
         </div>

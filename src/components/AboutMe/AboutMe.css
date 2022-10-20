@@ -1,17 +1,9 @@
 #aboutMe{
-     display: inline-flex; 
     background-color: rgb(125, 128, 155);
     padding: 15px;
 }
-
-  #div1{
-    margin-top: 2%;
-    width: 30%;
-    line-height: 200%;
-    text-align: center;
-}
- #div2{
+ #description{
     margin: 35px;
-    width: 60%;
-    text-align: justify;
+    width: 90%;
+    text-align: center;
 } 

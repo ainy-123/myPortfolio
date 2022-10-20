@@ -1,3 +1,14 @@
+.home-btn{
+    float: left;
+  }
+  .dropbtn{
+    float: right;
+    padding:0 64px 0 0;
+  }
+  #navbar{
+    background: transparent;
+    overflow:hidden;
+  }
 #one{
     background-color: rgb(245, 233, 233);
     width: 4vh;
@@ -17,4 +28,7 @@
     height:0.5vh; 
     margin:0.5vh 0 0 0;
     border-radius: 25px;
+  }
+  .dropdown-content{
+    overflow: hidden;
   }
