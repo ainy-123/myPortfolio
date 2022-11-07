@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Have a look at my portfolio here.
 
 [My Portfolio](https://ainy-kumari.netlify.app/).
+It is in progress.
 
 ## Available Scripts
 
